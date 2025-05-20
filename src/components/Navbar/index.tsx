@@ -24,21 +24,36 @@ export default function Navbar() {
 
         <div className="hidden lg:flex items-center gap-8">
           <Link href="/aboutus">
-            <button className="text-[#000000] font-normal">About Us</button>
+            <button className="text-[#000000] font-normal group cursor-pointer">
+              About Us
+              <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            </button>
           </Link>
           <Link href="/services">
-            <button className="text-[#000000] font-normal">Services</button>
+            <button className="text-[#000000] font-normal group cursor-pointer">
+              Services
+              <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            </button>
           </Link>
           <Link href="/usecases">
-            <button className="text-[#000000] font-normal">UseCases</button>
+            <button className="text-[#000000] font-normal group cursor-pointer">
+              UseCases
+              <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            </button>
           </Link>
           <Link href="/pricing">
-            <button className="text-[#000000] font-normal">Pricing</button>
+            <button className="text-[#000000]  font-normal group cursor-pointer">
+              Pricing
+              <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            </button>
           </Link>
           <Link href="/blog">
-            <button className="text-[#000000] font-normal">Blog</button>
+            <button className="text-[#000000] group font-normal cursor-pointer">
+              Blog
+              <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            </button>
           </Link>
-          <button className="text-black border border-black rounded-xl px-4 py-2">
+          <button className="text-black border cursor-pointer border-black rounded-xl px-4 py-2 hover:bg-black hover:text-white transition duration-300">
             Request a quote
           </button>
         </div>
@@ -63,31 +78,36 @@ export default function Navbar() {
 
         <div className="flex flex-col items-center justify-center h-full gap-4 px-6">
           <Link href="/aboutus" onClick={MenuBar}>
-            <button className="hover:bg-white hover:text-black transition duration-300 rounded-2xl p-3 w-full text-center">
+            <button className="group rounded-2xl p-3 w-full text-center">
               About Us
+              <p className="w-0 h-[1.5px] bg-white group-hover:w-full transition-all duration-300"></p>
             </button>
           </Link>
           <Link href="/services" onClick={MenuBar}>
-            <button className="hover:bg-white hover:text-black transition duration-300 rounded-2xl p-3 w-full text-center">
+            <button className="group rounded-2xl p-3 w-full text-center">
               Services
+              <p className="w-0 h-[1.5px] bg-white group-hover:w-full transition-all duration-300"></p>
             </button>
           </Link>
           <Link href="/usecases" onClick={MenuBar}>
-            <button className="hover:bg-white hover:text-black transition duration-300 rounded-2xl p-3 w-full text-center">
+            <button className="group rounded-2xl p-3 w-full text-center">
               UseCases
+              <p className="w-0 h-[1.5px] bg-white group-hover:w-full transition-all duration-300"></p>
             </button>
           </Link>
           <Link href="/pricing" onClick={MenuBar}>
-            <button className="hover:bg-white hover:text-black transition duration-300 rounded-2xl p-3 w-full text-center">
+            <button className="group rounded-2xl p-3 w-full text-center">
               Pricing
+              <p className="w-0 h-[1.5px] bg-white group-hover:w-full transition-all duration-300"></p>
             </button>
           </Link>
           <Link href="/blog" onClick={MenuBar}>
-            <button className="hover:bg-white hover:text-black transition duration-300 rounded-2xl p-3 w-full text-center">
+            <button className="group rounded-2xl p-3 w-full text-center">
               Blog
+              <p className="w-0 h-[1.5px] bg-white group-hover:w-full transition-all duration-300"></p>
             </button>
           </Link>
-          <button className="border border-white rounded-xl mt-2 transition duration-300 px-4 py-2 hover:bg-white hover:text-black">
+          <button className="border border-white hover:bg-white hover:text-black cursor-pointer rounded-xl mt-2 transition duration-300 px-4 py-2 ">
             Request a quote
           </button>
         </div>

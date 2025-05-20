@@ -12,7 +12,7 @@ export default function Hero() {
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </p>
-          <button className="text-white bg-black rounded-xl px-6 py-3 mt-6 w-full sm:w-auto max-w-[200px] self-center lg:self-start">
+          <button className="text-white cursor-pointer hover:bg-slate-900 transition duration-300 bg-black rounded-xl px-6 py-3 mt-6 w-full sm:w-auto max-w-[200px] self-center lg:self-start">
             Book a consultation
           </button>
         </div>

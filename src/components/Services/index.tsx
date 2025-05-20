@@ -1,8 +1,8 @@
 export default function Services() {
   return (
-    <div className="container mx-auto">
+    <div className="custom-container">
       <div className="flex flex-col md:flex-row mt-25 mb-20 gap-8">
-        <p className="bg-[#B9FF66] sm:items-center text-[24px] md:text-[30px] font-semibold rounded ">
+        <p className="bg-[#B9FF66] sm:items-center text-[24px] md:text-[30px] font-semibold rounded px-2 w-fit">
           Services
         </p>
 

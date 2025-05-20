@@ -12,7 +12,7 @@ export default function Proposal() {
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.
           </p>
-          <button className="text-white bg-black rounded-xl px-6 py-3 mt-4 w-full sm:w-auto max-w-[250px]">
+          <button className="text-white cursor-pointer hover:bg-slate-900 transition duration-300 bg-black rounded-xl px-3 sm:px-6 py-1 sm:py-3 mt-4 sm:w-auto max-w-[250px]">
             Get your free proposal
           </button>
         </div>
