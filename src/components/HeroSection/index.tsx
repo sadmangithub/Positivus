@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="custom-container px-4">
-      <div className="flex flex-col-reverse lg:flex-row mt-7 items-center lg:items-start justify-between">
+      <div className="flex flex-col-reverse lg:flex-row mt-10 items-center lg:items-start justify-between">
         <div className="flex flex-col text-center lg:text-left mt-6 lg:mt-0">
           <h1 className="text-[#000000] text-3xl sm:text-4xl lg:text-[40px] font-bold max-w-full lg:max-w-[380px]">
             Navigating the digital landscape for success

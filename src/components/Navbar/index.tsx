@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div className="custom-container">
-      <div className="flex items-center justify-between py-6">
+      <div className="flex items-center justify-between py-6 mt-3">
         <div className="w-auto h-auto">
           <Image
             src="/Logo.png"

@@ -3,8 +3,7 @@ import Image from "next/image";
 export default function Learn() {
   return (
     <div className="custom-container mb-30 px-4 md:px-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {/* Card 1 - Search Engine Optimization */}
+      <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="bg-[#F3F3F3] flex flex-col md:flex-row items-center rounded-4xl border border-b-4 border-black p-6">
           <div className="flex flex-col rounded p-4 md:p-10">
             <p className="bg-[#B9FF66] text-[25px] font-semibold rounded-xl px-2">
@@ -20,21 +19,22 @@ export default function Learn() {
                 width={40}
                 height={40}
               />
-              <p className="font-normal mt-1 cursor-pointer">Learn more</p>
+              <p className="font-normal mt-1 hover:underline cursor-pointer">
+                Learn more
+              </p>
             </div>
           </div>
-          <div className="flex justify-center w-full md:w-auto">
+          <div className="flex justify-center w-full md:pl-50 lg:pl-0 md:w-auto">
             <Image
               src="/Learn/Optimization.png"
               alt="Optimization"
               width={210}
               height={147}
-              className="w-full max-w-[300px] h-auto"
+              className="w-fit h-auto"
             />
           </div>
         </div>
 
-        {/* Card 2 - Pay-per-click Advertising */}
         <div className="bg-[#B9FF66] flex flex-col md:flex-row items-center rounded-4xl border border-b-4 border-black p-6">
           <div className="flex flex-col rounded p-4 md:p-10">
             <p className="bg-white text-[25px] font-semibold rounded-xl px-2">
@@ -50,21 +50,22 @@ export default function Learn() {
                 width={40}
                 height={40}
               />
-              <p className="font-normal mt-1 cursor-pointer">Learn more</p>
+              <p className="font-normal mt-1 hover:underline cursor-pointer">
+                Learn more
+              </p>
             </div>
           </div>
-          <div className="flex justify-center w-full md:w-auto">
+          <div className="flex justify-center w-full md:pl-50 lg:pl-0 md:w-auto">
             <Image
               src="/Learn/advertising.png"
               alt="Advertising"
               width={210}
               height={147}
-              className="w-full max-w-[300px] h-auto"
+              className="w-fit h-auto"
             />
           </div>
         </div>
 
-        {/* Card 3 - Social Media Marketing */}
         <div className="bg-black flex flex-col md:flex-row items-center rounded-4xl p-6">
           <div className="flex flex-col rounded p-4 md:p-10">
             <p className="bg-white text-[25px] font-semibold rounded-xl px-2">
@@ -80,23 +81,22 @@ export default function Learn() {
                 width={35}
                 height={40}
               />
-              <p className="text-white font-normal mt-1 cursor-pointer">
+              <p className="text-white font-normal mt-1 hover:underline cursor-pointer">
                 Learn more
               </p>
             </div>
           </div>
-          <div className="flex justify-center w-full md:w-auto">
+          <div className="flex justify-center w-full md:pl-50 lg:pl-0 md:w-auto">
             <Image
               src="/Learn/Marketing.png"
               alt="Marketing"
               width={210}
               height={210}
-              className="w-full max-w-[300px] h-auto"
+              className="w-fit h-auto"
             />
           </div>
         </div>
 
-        {/* Card 4 - Email Marketing */}
         <div className="bg-[#F3F3F3] flex flex-col md:flex-row items-center rounded-4xl border border-b-4 border-black p-6">
           <div className="flex flex-col rounded p-4 md:p-10">
             <p className="bg-[#B9FF66] text-[25px] font-semibold rounded-xl px-2">
@@ -112,21 +112,22 @@ export default function Learn() {
                 width={35}
                 height={40}
               />
-              <p className="font-normal mt-1 cursor-pointer">Learn more</p>
+              <p className="font-normal mt-1 hover:underline cursor-pointer">
+                Learn more
+              </p>
             </div>
           </div>
-          <div className="flex justify-center w-full md:w-auto">
+          <div className="flex justify-center w-full md:pl-50 lg:pl-0 md:w-auto">
             <Image
               src="/Learn/Email.png"
               alt="Email"
               width={210}
               height={170}
-              className="w-full max-w-[300px] h-auto"
+              className="w-fit h-auto"
             />
           </div>
         </div>
 
-        {/* Card 5 - Content Creation */}
         <div className="bg-[#B9FF66] flex flex-col md:flex-row items-center rounded-4xl border border-b-4 border-black p-6">
           <div className="flex flex-col rounded p-4 md:p-10">
             <p className="bg-white text-[25px] font-semibold rounded-xl px-2">
@@ -142,21 +143,22 @@ export default function Learn() {
                 width={35}
                 height={35}
               />
-              <p className="font-normal mt-1 cursor-pointer">Learn more</p>
+              <p className="font-normal mt-1 hover:underline cursor-pointer">
+                Learn more
+              </p>
             </div>
           </div>
-          <div className="flex justify-center w-full sm:max-w-[450px] md:w-auto">
+          <div className="flex justify-center w-full md:pl-50 lg:pl-0 md:w-auto">
             <Image
               src="/Learn/Creation.png"
               alt="Creation"
               width={210}
               height={147}
-              className="w-full max-w-[300px] h-auto"
+              className="w-fit h-auto"
             />
           </div>
         </div>
 
-        {/* Card 6 - Analytics and Tracking */}
         <div className="bg-black flex flex-col md:flex-row items-center rounded-4xl p-6">
           <div className="flex flex-col rounded p-4 md:p-10">
             <p className="bg-[#B9FF66] text-[25px] font-semibold rounded-xl px-2">
@@ -172,18 +174,18 @@ export default function Learn() {
                 width={40}
                 height={40}
               />
-              <p className="text-white font-normal mt-1 cursor-pointer">
+              <p className="text-white font-normal hover:underline mt-1 cursor-pointer">
                 Learn more
               </p>
             </div>
           </div>
-          <div className="flex justify-center w-full md:w-auto">
+          <div className="flex justify-center w-full md:pl-30 lg:pl-0 md:w-auto">
             <Image
               src="/Learn/Tracking.png"
               alt="Tracking"
               width={210}
               height={210}
-              className="w-full max-w-[300px] h-auto"
+              className="w-fit h-auto"
             />
           </div>
         </div>
