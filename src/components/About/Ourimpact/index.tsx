@@ -9,36 +9,31 @@ export default function CaseStudies() {
           A snapshot of the milestones and achivements that drive our success
         </p>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-5">
-        <div className="border-t rounded-r-xl border-black">
-          <div className="flex flex-col pl-5 mt-8">
-            <h1 className="text-[30px] font-bold">8+</h1>
-            <p className="text-small text-slate-800">Years of Experience</p>
-          </div>
+      <div className="grid grid-cols-2 md:grid-cols-5 py-6 gap-y-6">
+        <div>
+          <div className="border-t border-r-2 rounded-tr-2xl h-8"></div>
+          <h3 className="text-3xl pl-5 font-bold">8+</h3>
+          <p className="text-gray-600 pl-5">Years of Experience</p>
         </div>
-        <div className="border-t rounded-xl border-black">
-          <div className="flex flex-col pl-5 mt-8">
-            <h1 className="text-[30px] font-bold">50+</h1>
-            <p className="text-small text-slate-800">Experts</p>
-          </div>
+        <div>
+          <div className="border-t border-r-2 border-l-2 rounded-tr-2xl rounded-tl-2xl h-8"></div>
+          <h3 className="text-3xl font-bold pl-5">50+</h3>
+          <p className="text-gray-600 pl-5">Experts</p>
         </div>
-        <div className="border-t rounded-xl border-black">
-          <div className="flex flex-col pl-5 mt-8">
-            <h1 className="text-[30px] font-bold">100+</h1>
-            <p className="text-small text-slate-800">Successful Campaigns</p>
-          </div>
+        <div>
+          <div className="border-t border-r-2 border-l-2 rounded-tr-2xl rounded-tl-2xl h-8"></div>
+          <h3 className="text-3xl font-bold pl-5">100+</h3>
+          <p className="text-gray-600 pl-5">Successful</p>
         </div>
-        <div className="border-t rounded-xl border-black">
-          <div className="flex flex-col pl-5 mt-8">
-            <h1 className="text-[30px] font-bold">20+</h1>
-            <p className="text-small text-slate-800">Industry Awards</p>
-          </div>
+        <div>
+          <div className="border-t border-r-2 border-l-2 rounded-tr-2xl rounded-tl-2xl h-8"></div>
+          <h3 className="text-3xl font-bold pl-5">20+</h3>
+          <p className="text-gray-600 pl-5">Industry Awards</p>
         </div>
-        <div className="border-t rounded-2xl md:rounded-l-xl border-black">
-          <div className="flex flex-col pl-5 mt-8">
-            <h1 className="text-[30px] font-bold">500%</h1>
-            <p className="text-small text-slate-800">ROI for our clients</p>
-          </div>
+        <div className="col-span-2 md:col-span-1">
+          <div className="border-t border-l-2 rounded-tl-2xl h-8"></div>
+          <h3 className="text-3xl font-bold pl-5">500%</h3>
+          <p className="text-gray-600 pl-5">Experts</p>
         </div>
       </div>
     </div>
