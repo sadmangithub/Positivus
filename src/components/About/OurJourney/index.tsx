@@ -13,8 +13,8 @@ export default function OurJourney() {
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-4 mt-10 mb-15 ">
-          <h1 className="text-[30px] font-semibold">2019</h1>
-          <div className="bg-black flex flex-col md:flex-row rounded-4xl gap-2 md:gap-4 px-5 py-5 md:py-10">
+          <h1 className="text-[30px] pl-4 md:pl-0 font-bold">2019</h1>
+          <div className="bg-black flex md:flex-row rounded-4xl gap-2 md:gap-4 px-5 py-5 md:py-10">
             <div>
               <Image
                 src="/Aboutus/Star.jpeg"
@@ -45,10 +45,10 @@ export default function OurJourney() {
               className="w-fit h-auto absolute left-0"
             />
           </div>
-          <div className="text-[30px] text-start md:text-end font-semibold">
+          <div className="text-[30px] pl-4 md:pl-0 text-start md:text-end font-semibold">
             2021
           </div>
-          <div className="bg-black flex flex-col md:flex-row rounded-4xl gap-2 md:gap-4 px-5 py-5 md:py-10">
+          <div className="bg-black flex md:flex-row rounded-4xl gap-2 md:gap-4 px-5 py-5 md:py-10">
             <div>
               <Image
                 src="/Aboutus/Star.jpeg"
@@ -70,8 +70,8 @@ export default function OurJourney() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-4 mb-15">
-          <div className="text-[30px] font-semibold">2023</div>
-          <div className="bg-black flex flex-col justify-between gap-2 md:gap-4 md:flex-row rounded-4xl px-5 py-5 md:py-10 ">
+          <div className="text-[30px] pl-4 md:pl-0 font-semibold">2023</div>
+          <div className="bg-black flex justify-between gap-2 md:gap-4 md:flex-row rounded-4xl px-5 py-5 md:py-10 ">
             <div>
               <Image
                 src="/Aboutus/Star.jpeg"
@@ -102,8 +102,8 @@ export default function OurJourney() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row md:justify-end gap-5 mb-30">
-          <div className="text-[30px] font-semibold">2024</div>
-          <div className="bg-black flex flex-col md:flex-row rounded-4xl gap-2 md:gap-4 px-5 py-5 md:py-10">
+          <div className="text-[30px] pl-4 md:pl-0 font-semibold">2024</div>
+          <div className="bg-black flex md:flex-row rounded-4xl gap-2 md:gap-4 px-5 py-5 md:py-10">
             <div>
               <Image
                 src="/Aboutus/Star.jpeg"

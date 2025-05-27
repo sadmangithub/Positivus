@@ -70,7 +70,7 @@ export default function Core() {
             Transparency
           </p>
           <div className="border-t border-black pt-2 pb-6 text-sm sm:text-base"></div>
-          <p className="text-sm font-normal max-w-[600px] lg:max-w-[400px]">
+          <p className="text-sm font-normal lg:max-w-[400px]">
             {" "}
             Open and honest communication is key to our success we keep our
             clients informed every step of the way to ensure trust and clarity
