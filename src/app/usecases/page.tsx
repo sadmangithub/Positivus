@@ -5,6 +5,7 @@ import Featured from "@/components/Usecases/Featured";
 import Allsuccess from "@/components/Usecases/Allsuccess";
 import Testimonial from "@/components/Usecases/Testimonial";
 import Proposal from "@/components/Usecases/Proposal";
+import Footer from "@/components/Usecases/Footer";
 export default function Usecases() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Usecases() {
       <Allsuccess />
       <Testimonial />
       <Proposal />
+      <Footer />
     </>
   );
 }

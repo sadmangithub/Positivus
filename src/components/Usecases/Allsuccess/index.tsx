@@ -120,7 +120,7 @@ export default function Allsuccess() {
         </div>
 
         <div className="p-6 border-black lg:border-t  w-full">
-          <p className="font-semibold text-[20px] mt-10 ">
+          <p className="font-semibold text-[20px] mt-10">
             Health Care Provider
           </p>
           <p className="mt-4 w-[250px]">
