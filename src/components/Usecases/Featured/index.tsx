@@ -3,24 +3,28 @@ export default function Feature() {
   return (
     <div className="custom-container">
       <div className="bg-[#191A23] grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20 rounded-3xl p-10 mt-20 mb-20">
-        <div className="">
-          <h1 className="bg-[#B9FF66] text-[25px] text-center font-bold rounded p-1 inline-block">
+        <div className="flex flex-col items-center md:items-start px-2">
+          <h1 className="bg-[#B9FF66] text-[25px] font-bold rounded p-1 inline-block">
             Featured Success Story
           </h1>
-          <p className="text-white text-[20px] py-8">
-            Scaling Success for a leading E-commerace Brand
+
+          <p className="text-white text-[20px] w-[220px] md:w-[250px] py-8">
+            Scaling Success for a leading E-commerce Brand
           </p>
-          <p className="text-[#F3F3F3] text-[15px] max-w-[430px]">
+
+          <p className="text-[#F3F3F3] text-[15px] w-[250px] md:max-w-[430px]">
             Through a comprehensive SEO and PPC strategy, we helped this
-            e-commerce brand increase visibility,drive traffic,and boost sales
+            e-commerce brand increase visibility, drive traffic, and boost
+            sales.
           </p>
-          <div>
+
+          <div className="hidden md:block mt-4">
             <Image
               src="/Usecases/Read.JPG"
               alt="Trophy"
               width={130}
               height={80}
-              className="w-fit h-auto mt-4"
+              className="w-fit h-auto"
             />
           </div>
         </div>

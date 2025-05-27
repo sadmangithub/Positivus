@@ -14,7 +14,6 @@ import Team from "@/components/Team";
 import Testslider from "@/components/Testslider";
 import Contactus from "@/components/Contactus";
 import Footer from "@/components/Footer";
-
 export default function Home() {
   return (
     <>

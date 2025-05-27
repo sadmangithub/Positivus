@@ -12,15 +12,17 @@ export default function Navbar() {
   return (
     <div className="custom-container">
       <div className="flex items-center justify-between py-6 mt-3">
-        <div className="w-auto h-auto">
-          <Image
-            src="/Logo.png"
-            alt="Logo"
-            width={180}
-            height={60}
-            className="max-w-[200px] max-h-[60px]"
-          />
-        </div>
+        <Link href="/">
+          <div className="w-auto h-auto">
+            <Image
+              src="/Logo.png"
+              alt="Logo"
+              width={180}
+              height={60}
+              className="max-w-[200px] max-h-[60px]"
+            />
+          </div>
+        </Link>
 
         <div className="hidden lg:flex items-center gap-8">
           <Link href="/aboutus">
