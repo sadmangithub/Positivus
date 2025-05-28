@@ -2,7 +2,6 @@ import Image from "next/image";
 export default function HeroSection() {
   return (
     <div className="custom-container">
-      {/* <div className="px-4 sm:px-6 lg:px-8 mt-10"> */}
       <div className="bg-white lg:bg-[#F3F3F3] rounded-3xl sm:rounded-4xl mt-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 py-15 px-6 sm:px-10 lg:px-20">
           <div className="flex justify-center lg:justify-start">
@@ -29,6 +28,5 @@ export default function HeroSection() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
