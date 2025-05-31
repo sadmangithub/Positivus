@@ -34,7 +34,7 @@ const slides = [
 export default function Testimonials() {
   return (
     <div className="custom-container py-12">
-      <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mb-12">
+      <div className="flex flex-col items-center md:items-start sm:flex-row gap-4 sm:gap-8 mb-12">
         <span className="bg-[#B9FF66] text-black font-bold text-2xl sm:text-3xl px-3 py-1 rounded sm:self-start w-max">
           Testimonials
         </span>

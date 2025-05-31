@@ -10,10 +10,10 @@ export default function Engine() {
               alt="Star"
               width={60}
               height={60}
-              className="w-fit h-auto pr-6"
+              className="w-fit h-auto md:max-w-[400px] justifmb-5 md:mb-0 pr-6"
             />
           </div>
-          <div className="flex gap-20">
+          <div className="flex flex-col md:flex-row gap-20">
             <div className="flex flex-col rounded">
               <p className="bg-[#B9FF66] text-[25px] font-semibold rounded-xl px-2">
                 Search engine
@@ -23,7 +23,7 @@ export default function Engine() {
               </p>
             </div>
             <div className="flex flex-col justify-center">
-              <p className="text-white max-w-[600px]">
+              <p className="text-white max-w-[400px] md:max-w-[600px]">
                 SEO is the process of improving your website&apos;s visibility
                 on search engines like Google. By optimizing your content and
                 site structure, we help your business rank higher in search

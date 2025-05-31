@@ -2,11 +2,11 @@ export default function Seo() {
   return (
     <>
       <div className="custom-container">
-        <div className="flex flex-col md:flex-row mt-25 mb-20 gap-8">
-          <p className="bg-[#B9FF66] text-[24px] md:text-[30px] font-semibold px-1 rounded-xl inline-block">
+        <div className="flex flex-col md:flex-row items-center md:items-start mt-25 mb-20 gap-8">
+          <p className="bg-[#B9FF66] text-center md:text-start text-[24px] md:text-[30px] font-semibold px-1 rounded-xl inline-block">
             How We Work: SEO Process
           </p>
-          <p className="font-normal sm:items-center text-sm w-[500px] md:max-w-[350px]">
+          <p className="font-normal justify-center items-center md:text-start text-sm max-w-[330px] md:max-w-[350px]">
             Our step-by-step SEO process ensures your website ranks higher,
             attracts more traffic, and drives lasting results.
           </p>

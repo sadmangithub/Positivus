@@ -44,7 +44,7 @@ export default function Navbar() {
             </button>
           </Link>
           <Link href="/pricing">
-            <button className="text-[#000000]  font-normal group cursor-pointer">
+            <button className="text-[#000000] font-normal group cursor-pointer">
               Pricing
               <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
             </button>
